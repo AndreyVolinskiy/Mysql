@@ -5,9 +5,6 @@ import model.Todo;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * @author Igor Hnes on 2/2/18.
- */
 public interface TodoDao {
 
     Todo findById(Long id);

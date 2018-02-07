@@ -8,9 +8,6 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author Igor Hnes on 2/2/18.
- */
 public class TodoDaoImpl implements TodoDao {
 
     private static final String SELECT = "SELECT * FROM todo;";

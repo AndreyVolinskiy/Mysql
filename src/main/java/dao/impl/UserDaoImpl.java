@@ -16,7 +16,6 @@ public class UserDaoImpl implements UserDao {
     private static final String UPDATE_NAME = "UPDATE users SET name = ? WHERE id = ?";
     private static final String DELETE = "DELETE FROM users WHERE id=?";
 
-
     @Override
     public User findById(Long id) {
 
